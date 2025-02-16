@@ -24,7 +24,7 @@ We provide the .pth file of Mask2Former that we used in our paper for predicting
 
 - The **IoUb-based evaluation** requires replacing the original **`cocoeval.py`** file. Users can set the **buffer range** in the code.
 
-- We provide the entire framework in the form of a **Jupyter Notebook**, allowing users to conveniently extract the necessary code snippets. The part of the framework that calls damage prediction results uses **MMDetection**, but it can be replaced with any other inference framework. For the **Mask2Former** used in our framework, we made slight modifications to the **MMDetection** implementation to directly obtain the required logits. If using the **Transformers** framework, the required logits can be obtained directly.
+- We provide the entire framework in the form of a **Jupyter Notebook**, allowing users to conveniently extract the necessary code snippets. The part of the framework that calls damage prediction results uses **MMDetection**, but it can be replaced with any other inference framework. For the **Mask2Former** used in our framework, we made slight modifications to the **MMDetection** implementation to directly obtain the required logits. Specifically, at the end of `instance_postprocess` in `MaskFormerFusionHead`, we added the line `results.mask_logits = mask_pred` to directly obtain the logits. If using the **Transformers** framework, the required logits can be obtained directly.
 
 ## Progress
 
