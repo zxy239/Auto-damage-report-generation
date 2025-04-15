@@ -24,14 +24,18 @@ We provide the .pth file of Mask2Former that we used in our paper for predicting
 
 - The **IoUb-based evaluation** requires replacing the original **`cocoeval.py`** file. Users can set the **buffer range** in the code.
 
-- We provide the entire framework in the form of a **Jupyter Notebook**, allowing users to conveniently extract the necessary code snippets. The part of the framework that calls damage prediction results uses **MMDetection**, but it can be replaced with any other inference framework. For the **Mask2Former** used in our framework, we made slight modifications to the **MMDetection** implementation to directly obtain the required logits. Specifically, at the end of `instance_postprocess` in `MaskFormerFusionHead`, we added the line `results.mask_logits = mask_pred` to directly obtain the logits. If using the **Transformers** framework, the required logits can be obtained directly.
+- We provide the entire framework in the form of a **Jupyter Notebook**, allowing users to conveniently extract the necessary code snippets. The part of the framework that calls damage prediction results uses **MMDetection**, but it can be replaced with any other inference framework. For the **Mask2Former** used in our framework, we made slight modifications to the **MMDetection** implementation to directly obtain the required logits. Specifically, at the end of `instance_postprocess` in `MaskFormerFusionHead`, we added the line `results.mask_logits = mask_pred` to directly obtain the logits. If using the **Transformers** framework, the required logits can be obtained directly. One trained model based on **MMDetection** can be found in https://huggingface.co/zxy239/Mask2Former_for_Auto-damage-report-generation/tree/main.
 
 ## Progress
 
-16/02/2025
+### 16/02/2025
+
 The complete code will be released alongside the preprint of the paper. All or part of the dataset may be made publicly available in the future as planned.
 
-Updated 15/04/2025 the preprint version is:
+### Updated 15/04/2025 
+
+the preprint version is:
+
 Ye, Zehao and Mozafarian, Mohammadhamed and Cavallaro, Paola Alice Rosa and Altinay, Kamil and Villa, Valentina and Ninić, J., Automated Tunnel Damage Report Generation. Available at SSRN: https://ssrn.com/abstract=5214957 or http://dx.doi.org/10.2139/ssrn.5214957 
 
 ## Contact
