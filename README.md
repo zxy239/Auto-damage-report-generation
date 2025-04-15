@@ -28,7 +28,11 @@ We provide the .pth file of Mask2Former that we used in our paper for predicting
 
 ## Progress
 
+16/02/2025
 The complete code will be released alongside the preprint of the paper. All or part of the dataset may be made publicly available in the future as planned.
+
+Updated 15/04/2025 the preprint version is:
+Ye, Zehao and Mozafarian, Mohammadhamed and Cavallaro, Paola Alice Rosa and Altinay, Kamil and Villa, Valentina and Ninić, J., Automated Tunnel Damage Report Generation. Available at SSRN: https://ssrn.com/abstract=5214957 or http://dx.doi.org/10.2139/ssrn.5214957 
 
 ## Contact
 
