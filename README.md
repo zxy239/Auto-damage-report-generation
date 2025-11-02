@@ -6,6 +6,26 @@ Ageing infrastructure requires effective monitoring. Although reality capture te
 
 To meet these requirements and address the complexities of real-world scenarios, we propose an Intersection over Union with buffer zone (IoUb) evaluation method. This approach aims to reduce inconsistencies in manual annotations and de-emphasize strict boundary precision, thereby enhancing the robustness and effectiveness of damage detection model evaluations. We evaluated several instance segmentation algorithms and ultimately recommend adopting a lower confidence threshold, as it better aligns with our application. We introduce post-processing methods that aggregate the predictions from multiple inferences to meet the demands of processing ultra-high-resolution (UHR) panoramic images. Finally, based on reliable detection results, we use a statistical ranking approach to categorize damage severity, generating the damage report in an end-to-end web-based platform. The proposed framework significantly enhances the efficiency of professionals in planning and monitoring ageing tunnel assets.
 
+## Visualization Results
+
+<table>
+<tr>
+<td align="center">
+<object data="./report/report1_redacted.pdf" type="application/pdf" width="390px" height="550px">
+  <a href="./report/report1_redacted.pdf">View Report 1</a>
+</object>
+<br>Report 1
+</td>
+<td align="center">
+<object data="./report/report2_redacted.pdf" type="application/pdf" width="390px" height="550px">
+  <a href="./report/report2_redacted.pdf">View Report 2</a>
+</object>
+<br>Report 2
+</td>
+</tr>
+</table>
+
+
 ## Components
 
 ### IoU with buffer zone (IoUb)
