@@ -1,4 +1,4 @@
-# Automated Tunnel Damage Report Generation
+# Automated multi-category tunnel damage detection and report generation from ultra-high-resolution panoramic laser images
 
 ## Overview
 
@@ -31,6 +31,20 @@ We provide the .pth file of Mask2Former that we used in our paper for predicting
 ### 16/02/2025
 
 The complete code will be released alongside the preprint of the paper. All or part of the dataset may be made publicly available in the future as planned.
+
+### 30/10/2025
+
+Paper now is online:
+
+@article{ye2026automated,
+  title        = {Automated multi-category tunnel damage detection and report generation from ultra-high-resolution panoramic laser images},
+  journal      = {Tunnelling and Underground Space Technology},
+  volume       = {168},
+  pages        = {107194},
+  year         = {2026},
+  url          = {https://doi.org/10.1016/j.tust.2025.107194},
+  author       = {Ye, Zehao and Mozafarian, Mohammadhamed and Cavallaro, Paola Alice Rosa and Altinay, Kamil and Villa, Valentina and Ninić, Jelena},
+}
 
 ## Contact
 
