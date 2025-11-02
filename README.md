@@ -36,6 +36,7 @@ The complete code will be released alongside the preprint of the paper. All or p
 
 Paper now is online:
 
+```bibtex
 @article{ye2026automated,
   title        = {Automated multi-category tunnel damage detection and report generation from ultra-high-resolution panoramic laser images},
   journal      = {Tunnelling and Underground Space Technology},
@@ -45,6 +46,8 @@ Paper now is online:
   url          = {https://doi.org/10.1016/j.tust.2025.107194},
   author       = {Ye, Zehao and Mozafarian, Mohammadhamed and Cavallaro, Paola Alice Rosa and Altinay, Kamil and Villa, Valentina and Ninić, Jelena},
 }
+```
+
 
 ## Contact
 
